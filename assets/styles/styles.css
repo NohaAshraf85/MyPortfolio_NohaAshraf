@@ -1,0 +1,14 @@
+body{
+
+}
+
+.hero{
+    background-image: url("../images/pexels-negative-space-169573.jpg");
+    min-height: 500px;
+    margin-bottom: 20px;
+    
+}
+
+.projects{
+    margin-top: 20px;
+}
