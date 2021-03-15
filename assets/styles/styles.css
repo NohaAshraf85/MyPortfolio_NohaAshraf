@@ -1,14 +1,35 @@
+*{
+  box-sizing: ;  
+}
+
 body{
 
 }
 
 .hero{
-    background-image: url("../images/pexels-negative-space-169573.jpg");
+    /* background-image: linear-gradient(to right, #9E768F, #9FA4C4); */
     min-height: 500px;
     margin-bottom: 20px;
+    width: 100vw;
     
 }
 
 .projects{
     margin-top: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+.nav-item .nav-link{
+    color: black;
+}
+
+.profilePicture{
+    width: 220px;
+    height: 300px;
 }
