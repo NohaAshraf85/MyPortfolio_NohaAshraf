@@ -7,10 +7,11 @@ body{
 }
 
 .hero{
-    /* background-image: linear-gradient(to right, #9E768F, #9FA4C4); */
-    min-height: 500px;
+    background-image: url("../images/pexels-mockupeditorcom-205316.jpg");
+    min-height: 600px;
     margin-bottom: 20px;
-    width: 100vw;
+    /* margin-top: 20px; */
+    width: 100%;
     
 }
 
@@ -32,4 +33,27 @@ body{
 .profilePicture{
     width: 220px;
     height: 300px;
+}
+
+.introduction{
+    padding-left: 90px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.viewMyWorkBtn{
+    margin-top: 20px;
+}
+
+.section-1{
+    margin-top: 30px;
+}
+
+.sampleProjectsSection{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navbar .navbar-expand-lg{
+
 }
