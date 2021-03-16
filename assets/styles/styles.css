@@ -8,9 +8,9 @@ body, html{
 
 .heroImage{
     position: relative;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
-    background: url("../images/pexels-mockupeditorcom-205316.jpg") no-repeat center;
+    background: url("../images/pexels-ken-tomita-389818.jpg") no-repeat center;
     background-size: cover;
     margin-bottom: 20px;
 }
@@ -19,6 +19,10 @@ body, html{
     margin-top: 100px;
     padding-right: 70px;
     padding-left: 50px;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .img-thumbnail{
