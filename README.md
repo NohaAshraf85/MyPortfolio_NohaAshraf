@@ -16,3 +16,13 @@ Upon opening the application the user is presented with a clean nav bar and a he
 If the user chooses to click on View my Work Button, the user will be redirected to the work portfolio section.
 
 ![My Work](./Assets/images/myWork.png)
+
+The user can go back to the homepage by clicking on the Nav Bar logo.
+
+If the user wishes to view the About section, clicking on the About in the Nav Bar shall redirect the user to the relevant section. Where information about me is presented along with contact information and a link to download my resume in PDF format.
+
+![About](./Assets/images/aboutMe.png)
+
+The application also, provides a contact section where the user can contact me, this is a future development to actually send e-mail with a request. 
+
+![Contact](./Assets/images/contact.png)
