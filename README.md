@@ -13,6 +13,13 @@ Upon opening the application the user is presented with a clean nav bar and a he
 
 ![Homepage](./Assets/images/homepage.png)
 
+The Nav Bar also includes links to all the relevant social  websites:
+* GitHub
+* Facebook
+* Instagram
+* LinkedIn
+* Twitter
+
 If the user chooses to click on View my Work Button, the user will be redirected to the work portfolio section.
 
 ![My Work](./Assets/images/myWork.png)
