@@ -50,15 +50,6 @@ body, html{
     margin-bottom: 30px;
 }
 
-.section-3{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: rgba(102, 56, 35, 0.555);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-}
-
 .techTitle{
     color: white;
     margin-bottom: 30px;
@@ -82,8 +73,8 @@ body, html{
 }
 
 .techSectionTit{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .potrfolio-title{
@@ -126,97 +117,3 @@ body, html{
 
 
 
-/* *{
-  box-sizing: ;  
-}
-
-body{
-
-}
-
-.hero{
-    background-image: url("../images/pexels-picjumbocom-196644.jpg");
-    min-height: 400px;
-    margin-bottom: 20px;
-    width: 100%;
-    
-}
-
-.projects{
-    margin-top: 20px;
-}
-
-.navbar-brand{
-    font-family: 'Caveat', cursive;
-    font-size: 25px;
-    font-weight: bolder;
-    color: black;
-}
-
-.nav-link{
-    color: black;
-}
-
-.profilePicture{
-    width: 220px;
-    height: 300px;
-}
-
-
-
-.viewMyWorkBtn{
-    margin-top: 20px;
-}
-
-.section-1{
-    margin-top: 30px;
-}
-
-.sampleProjectsSection{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.navbar .navbar-expand-lg{
-
-}
-
-.introCol{
-    padding-top: 40px;
-    background-color: rgba(0, 0, 0, 0.534);
-    color: white;
-    margin-top: 80px;
-    padding-bottom: 40px;
-    margin-left: 300px;
-    
-}
-
-
-.introImg{
-    width: 480px;
-    height: 260px;
-}
-
-.btn .social{
-    color: white;
-    background-color: white;
-    
-}
-
-.btn .btn-dark{
-    width: 87px;
-}
-
-/* .navbar-toggler-icon{
-    color: white;
-    background-color: black;
-} */
-
-/* .navbar-toggler{
-    color: white;
-}
-
-.section1{
-    background-color: black;
-    opacity: 0.5;
-} */ 
