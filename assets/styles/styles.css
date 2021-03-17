@@ -13,6 +13,7 @@ body, html{
     background: url("../images/pexels-ken-tomita-389818.jpg") no-repeat center;
     background-size: cover;
     margin-bottom: 20px;
+    
 }
 
 .introText{
@@ -52,7 +53,27 @@ body, html{
 .section-3{
     margin-top: 30px;
     margin-bottom: 30px;
+    background-color: rgba(102, 56, 35, 0.555);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
+
+.techTitle{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.cardstyle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.techIKnowTitle{
+    margin-bottom: 40px;
+}
+
+
 
 
 
