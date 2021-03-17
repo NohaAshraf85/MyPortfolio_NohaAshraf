@@ -11,7 +11,7 @@ My Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io
 ## How It works: 
 Upon opening the application the user is presented with a clean nav bar and a hero image that is presenting the website with a clean introduction section along with a button to go directly to the section where the user can view the work portfolio section.
 
-![Homepage](./Assets/images/homepage.png)
+![Homepage](./assets/images/homepage.png)
 
 The Nav Bar also includes links to all the relevant social  websites:
 * GitHub
@@ -22,14 +22,14 @@ The Nav Bar also includes links to all the relevant social  websites:
 
 If the user chooses to click on View my Work Button, the user will be redirected to the work portfolio section.
 
-![My Work](./Assets/images/myWork.png)
+![My Work](./assets/images/myWork.png)
 
 The user can go back to the homepage by clicking on the Nav Bar logo.
 
 If the user wishes to view the About section, clicking on the About in the Nav Bar shall redirect the user to the relevant section. Where information about me is presented along with contact information and a link to download my resume in PDF format.
 
-![About](./Assets/images/aboutMe.png)
+![About](./assets/images/aboutMe.png)
 
 The application also, provides a contact section where the user can contact me, this is a future development to actually send e-mail with a request. 
 
-![Contact](./Assets/images/contact.png)
+![Contact](./assets/images/contact.png)
