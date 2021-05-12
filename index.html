@@ -17,7 +17,7 @@
 
 <body class="d-flex flex-column h-100">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand font-color" href="#">Noha Ashraf</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,21 +34,22 @@
 
       <!-- social media buttons -->
       
-      <a class="btn btn-light bi bi-github" href="https://github.com/NohaAshraf85" target="_blank"></a>
-      <a class="btn btn-light bi bi-facebook" href="https://www.facebook.com/noha.ashraf.585" target="_blank"></a>
-      <a class="btn btn-light bi bi-twitter" href="https://twitter.com/nohaashraf" target="_blank"></a>
-      <a class="btn btn-light bi bi-linkedin" href="https://www.linkedin.com/in/noha-ashraf-4158604b/" target="_blank"></a>
-      <a class="btn btn-light bi bi-instagram" href="https://www.instagram.com/nohaashraf85/" target="_blank"></a>
+      <a class="btn btn-dark bi bi-github mx-1" href="https://github.com/NohaAshraf85" target="_blank"></a>
+      <a class="btn btn-dark bi bi-linkedin mx-1" href="https://www.linkedin.com/in/noha-ashraf-4158604b/" target="_blank"></a>
+      <a class="btn btn-dark bi bi-twitter mx-1" href="https://twitter.com/nohaashraf" target="_blank"></a>
+      <a class="btn btn-dark bi bi-facebook mx-1" href="https://www.facebook.com/noha.ashraf.585" target="_blank"></a>
+      <a class="btn btn-dark bi bi-instagram mx-1" href="https://www.instagram.com/nohaashraf85/" target="_blank"></a>
     </nav>
   </header>
   
   <main>
+
       <div class="contaienr heroImage">
         <div class="row text-center introText">
           <div class="col-4-lg col-12-md col-12-sm col-12-xs">
           <h2>Welcome to my portfolio</h2>
             <p>My name is Noha, I am an aspiring front-end developer</p>
-              <a class="btn btn-primary px-5 viewMyWorkBtn" href="#sampleWork">View My Work</a>
+              <a class="btn btn-light px-5 viewMyWorkBtn" href="#sampleWork">View My Work</a>
             </div>
         </div>
       </div>
@@ -56,12 +57,12 @@
     <section class="section-2">
       <div class="container">
         <div class="row pt-5">
-          <h2 id="aboutMe">About Me</h2>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <img src="./assets/images/EZZ-Studio-9578.jpg" class="img-thumbnail" alt="profile picture" width="300px">
+          <h2 id="aboutMe" class="aboutMeTitle">About Me</h2>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex">
+            <img src="./assets/images/EZZ-Studio-9578.jpg" class="img-thumbnail m-3 mx-auto" alt="profile picture" width="300px">
           </div>
           <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 introduction">
-            <p>Hello,</p>
+            <!-- <p>Hello,</p> -->
             <p>My name is Noha, i am an aspiring fron-end developer located in CT, USA. I love creating websites that serve their purpose with clean and easy user interface.</p>
             <p>Having lived in 3 continents and accumulating 7 years of experience in the sales department of a software development company and seeing the end result that clients got based on their requirements, so i decided to create these websites.</p>
               <p>e-mail: noha_ashraf85@hotmail.com</p>
@@ -69,55 +70,90 @@
               <a class="btn btn-primary px-5 viewMyWorkBtn" href="./assets/resume/NOHA ASHRAF_Resume_2019.pdf" target="_blank" download>My Resume</a>
           </div>
         </div>
-        <div class="row pt-5 techSectionTit">
-          <h2 class="techIKnowTitle">Technologies I Know</h2>
-          <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech" >
-            <i class="fab fa-html5 fa-4x"></i>
-              <h4>Html</h4>
-          </div>
-          <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
-            <i class="fab fa-css3 fa-4x"></i>
-              <h4>CSS</h4>
-          </div>
-          <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
-            <i class="fab fa-bootstrap fa-4x"></i>
-              <h4>Bootstrap</h4>
-          </div>
-          <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
-            <i class="fab fa-js fa-4x"></i>
-              <h4>javaScript</h4>
-          </div>
-          <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
-            <i class="fas fa-code fa-4x"></i>
-              <h4>jQuery</h4>
-      
-          </div>
-          <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
-            <i class="fab fa-node-js fa-4x"></i>
-              <h3>Node .js</h3>
-          </div>
-        </div>
       </div>
     </section>
+
+    <div class="contiainer-fluid">
+      <div class="row pt-5 techSectionTit font">
+        <h2 class="techIKnowTitle">Technologies & Tools</h2>
+        <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech" >
+          <i class="fab fa-html5 fa-4x font"></i>
+            <h4>Html</h4>
+        </div>
+        <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
+          <i class="fab fa-css3 fa-4x font"></i>
+            <h4>CSS</h4>
+        </div>
+        <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
+          <i class="fab fa-bootstrap fa-4x font"></i>
+            <h4>Bootstrap</h4>
+        </div>
+        <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
+          <i class="fab fa-js fa-4x font"></i>
+            <h4>javaScript</h4>
+        </div>
+        <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
+          <i class="fas fa-code fa-4x font"></i>
+            <h4>jQuery</h4>
+        </div>
+        <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
+          <i class="fab fa-node-js fa-4x"></i>
+            <h3>Node .js</h3>
+        </div>
+        <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
+          <i class="fas fa-database fa-4x font"></i>
+            <h3>MySQL</h3>
+        </div>
+        <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
+          <i class="fab fa-npm fa-4x font"></i>
+            <h3>npm packages</h3>
+        </div>
+        <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech">
+          <i class="fas fa-database fa-4x font"></i>
+            <h3>MongoDB</h3>
+        </div>
+      </div>
+    </div>
 
     <section class="section-1">
       <div class="container">
         <h2 id="sampleWork" class="sampleProjectsSection">My Work</h2>
         <div class="row projects">
           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem; height: 20rem;">
+              <img src="./assets/images/remoteRecruitHomepage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">remoteRecruit</h5>
+                <p class="card-text">A website that connects freelancers and employers</p>
+                <a href="https://remote-recruit.herokuapp.com/" class="btn btn-dark" target="_blank">View Project</a>
+                <a href="https://github.com/lbburnsy/remoteRecruit" class="btn btn-dark" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard">
+            <div class="card" style="width: 18rem; height: 20rem;">
               <img src="./assets/images/bookHunt1.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Book Hunt</h5>
                 <p class="card-text">Meet your next read and see NYT Best Sellers</p>
                 <a href="https://srad25.github.io/Book-Hunt/" class="btn btn-dark" target="_blank">View Project</a>
                 <a href="https://github.com/srad25/Book-Hunt" class="btn btn-dark" target="_blank">GitHub</a>
-
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem; height: 20rem;">
+              <img src="./assets/images/teamProfileGenerator.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Team Profile Generator</h5>
+                <p class="card-text">A CLI app that creates a webpage display team basic information</p>
+                <a href="https://drive.google.com/file/d/1tDyKklkteBCH80E-3qU6Nj2TzF0YdVxU/view" class="btn btn-dark" target="_blank">Walkthrough Video</a>
+                <a href="https://github.com/NohaAshraf85/Team-Profile-Generator" class="btn btn-dark" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard">
+            <div class="card" style="width: 18rem; height: 20rem;">
               <img src="./assets/images/weatherDashboardHomepage.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Weather Dashboard</h5>
@@ -128,12 +164,23 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem; height: 20rem;">
               <img src="./assets/images/codeQuiz.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Code Quiz</h5>
                 <p class="card-text">A Code Quiz Application with timers and scores</p>
-                <a href="https://nohaashraf85.github.io/Code-Quiz-Application/" class="btn btn-dark" target="_blank">More Info</a>
+                <a href="https://nohaashraf85.github.io/Code-Quiz-Application/" class="btn btn-dark" target="_blank">View Project</a>
+                <a href="https://github.com/NohaAshraf85/Code-Quiz-Application" class="btn btn-dark" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 workCard">
+            <div class="card" style="width: 18rem; height: 20rem;">
+              <img src="./assets/images/currentTimeEntry1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Day Planner</h5>
+                <p class="card-text">Day Planner, 9-5 timeblocks, current, present and future tasks</p>
+                <a href="https://github.com/NohaAshraf85/Day-Planner" class="btn btn-dark" target="_blank">View Project</a>
                 <a href="https://github.com/NohaAshraf85/Code-Quiz-Application" class="btn btn-dark" target="_blank">GitHub</a>
               </div>
             </div>
