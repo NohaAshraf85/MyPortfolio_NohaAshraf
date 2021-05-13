@@ -57,7 +57,10 @@ The application also, provides a contact section where the user can contact me, 
 
 ![Contact](./assets/images/contactme.png)
 
-The Contact Me section also provides the capability of sending an e-mail directly from the website
+The Contact Me section also provides the capability of sending an e-mail directly through the website which opens the mail to window and fills in the subject and the body of the e-mail with the contact information and the message. The user can also reset the fields in the form using the reset button.
+
+![sendMaiil](./assets/images/sendMail.png)
+
 
 ## License
 ![APM](https://img.shields.io/apm/l/README)
