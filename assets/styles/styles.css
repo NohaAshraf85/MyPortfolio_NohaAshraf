@@ -79,7 +79,8 @@ body, html{
 .techSectionTit{
     margin-top: 40px;
     margin-bottom: 40px;
-    background-color: rgba(85, 79, 79, 0.774);
+    /* background-color: rgba(85, 79, 79, 0.774); */
+    background-color: #87a7b3;
 
 }
 
