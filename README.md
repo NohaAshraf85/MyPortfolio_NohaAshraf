@@ -10,8 +10,6 @@ My Portfolio can be accessed through: [Portfolio](https://nohaashraf85.github.io
 
 [Technologies-&-tools-used](#Technologies-Used)
 
-[Installation](#Installation)
-
 [How-it-Works](#How-it-Works)
 
 [License](#License)
